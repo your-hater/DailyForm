@@ -1,0 +1,149 @@
+:root {
+  --header: "Arial";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body,
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+.clear::after,
+.clear::before {
+  content: " ";
+  display: table;
+}
+
+.clear::after {
+  clear: both;
+}
+
+/* Main Styles */
+
+.field {
+  padding: 10px 15px;
+}
+
+body {
+  background: pink;
+  font-family: Arial;
+}
+
+.acc-field {
+  width: 100%;
+  max-width: 460px;
+  max-height: 470px;
+  margin: 30px auto;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 13px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.field:nth-child(1) {
+  width: 48%;
+}
+
+.field:nth-child(2) {
+  width: 48%;
+}
+
+.field:nth-child(3) {
+  width: 100%;
+}
+
+.field:nth-child(4) {
+  width: 100%;
+}
+
+.first {
+  margin-bottom: 15px;
+  padding-left: 30px;
+  background: rgba(196, 196, 196, 0.2);
+  max-width: 195px;
+  margin-left: 30px;
+}
+
+.last {
+  margin-bottom: 15px;
+  padding-left: 30px;
+  background: rgba(196, 196, 196, 0.2);
+  max-width: 195px;
+  margin-right: 30px;
+}
+
+.email {
+  margin-bottom: 15px;
+  padding-left: 30px;
+  background: rgba(196, 196, 196, 0.2);
+  max-width: 400px;
+  margin-left: 30px;
+}
+
+.pass {
+  margin-bottom: 15px;
+  padding-left: 30px;
+  background: rgba(196, 196, 196, 0.2);
+  max-width: 400px;
+  margin-left: 30px;
+}
+
+.button {
+  background: pink;
+  width: 400px;
+  height: 50px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button:active {
+  border: 2px dashed rgb(196, 196, 196);
+}
+
+.description {
+  margin-bottom: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.field-header {
+  margin-bottom: 15px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-family: var(--header);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.field-footer {
+  margin-bottom: 65px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.link {
+  color: #e52e66;
+}
